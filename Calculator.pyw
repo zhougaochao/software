@@ -1164,8 +1164,8 @@ def Plot3D():
     def about():
         tkinter.messagebox.showinfo('关于',message = '组长：阮超逸\n组员：周高超、肖文宗')
     def get_graph_data(f, x_min, x_max, y_min, y_max):
-        x_step = (x_max-x_min)/200.0
-        y_step = (y_max-y_min)/200.0
+        x_step = (x_max-x_min)/80.0
+        y_step = (y_max-y_min)/80.0
         X = np.arange(x_min, x_max + x_step, x_step)
         Y = np.arange(y_min, y_max + y_step, y_step)
         zlist = []
